@@ -27,6 +27,13 @@ The game features real-time player movement, enemy collision detection, dynamic 
 * LWJGL3
 
 ---
+## 📸 Gameplay Screenshots
+
+![Gameplay Screenshot 1](screenshots/Gamescreenshot.png)
+
+![Gameplay Screenshot 2](screenshots/Gamescreenshot2.png)
+
+---
 
 ##  Gameplay
 
