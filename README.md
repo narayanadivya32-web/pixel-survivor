@@ -1,33 +1,84 @@
-# MiniGame
+Pixel Survivor 🎮
 
-A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/libgdx/gdx-liftoff).
+Pixel Survivor is a 2D interactive survival game developed using Java and the libGDX framework.
 
-This project was generated with a template including simple application launchers and an `ApplicationAdapter` extension that draws libGDX logo.
+The game features real-time player movement, enemy collision detection, dynamic scoring, increasing difficulty, and in-game UI rendering.
 
-## Platforms
+---
 
-- `core`: Main module with the application logic shared by all platforms.
-- `lwjgl3`: Primary desktop platform using LWJGL3; was called 'desktop' in older docs.
+##  Features
 
-## Gradle
+*    Player movement using keyboard controls
+*    Enemy movement and collision detection
+*    Food collection and score tracking
+*    Dynamic difficulty increase
+*    Game Over screen
+*    Final score display
+*    Motivational gameplay messages
+*    Shape rendering using libGDX
 
-This project uses [Gradle](https://gradle.org/) to manage dependencies.
-The Gradle wrapper was included, so you can run Gradle tasks using `gradlew.bat` or `./gradlew` commands.
-Useful Gradle tasks and flags:
+---
 
-- `--continue`: when using this flag, errors will not stop the tasks from running.
-- `--daemon`: thanks to this flag, Gradle daemon will be used to run chosen tasks.
-- `--offline`: when using this flag, cached dependency archives will be used.
-- `--refresh-dependencies`: this flag forces validation of all dependencies. Useful for snapshot versions.
-- `build`: builds sources and archives of every project.
-- `cleanEclipse`: removes Eclipse project data.
-- `cleanIdea`: removes IntelliJ project data.
-- `clean`: removes `build` folders, which store compiled classes and built archives.
-- `eclipse`: generates Eclipse project data.
-- `idea`: generates IntelliJ project data.
-- `lwjgl3:jar`: builds application's runnable jar, which can be found at `lwjgl3/build/libs`.
-- `lwjgl3:run`: starts the application.
-- `test`: runs unit tests (if any).
+##  Technologies Used
 
-Note that most tasks that are not specific to a single project can be run with `name:` prefix, where the `name` should be replaced with the ID of a specific project.
-For example, `core:clean` removes `build` folder only from the `core` project.
+* Java
+* libGDX
+* Gradle
+* LWJGL3
+
+---
+
+##  Gameplay
+
+* Control the blue player square
+* Collect green food objects to increase score
+* Avoid the moving red enemy
+* Game speed increases as score grows
+
+---
+
+##  How to Run
+
+### Prerequisites
+
+* Java 17 or above installed
+
+### Run the Game
+
+```bash
+java -jar PixelSurvivor.jar
+```
+
+---
+
+##   Project Structure
+
+* `core` → Main game logic
+* `lwjgl3` → Desktop launcher module
+
+---
+
+##   Concepts Implemented
+
+This project demonstrates:
+
+* Game loop architecture
+* Collision detection
+* Object-oriented programming
+* Input handling
+* UI rendering
+* State management
+* Dynamic gameplay logic
+
+---
+
+## GitHub Repository
+
+Source Code:
+https://github.com/narayanadivya32-web/pixel-survivor
+
+---
+
+## Author
+
+Developed by Divya Narayan
